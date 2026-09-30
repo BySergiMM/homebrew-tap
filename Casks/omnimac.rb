@@ -22,6 +22,8 @@ cask "omnimac" do
 
   zap trash: [
     "~/Library/Application Support/OmniMac",
+    "~/Library/Caches/com.seergiii.omnimac",
+    "~/Library/HTTPStorages/com.seergiii.omnimac",
     "~/Library/Preferences/com.seergiii.omnimac.plist",
   ]
 end
