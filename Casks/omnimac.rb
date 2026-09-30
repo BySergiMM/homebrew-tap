@@ -17,6 +17,9 @@ cask "omnimac" do
 
   app "OmniMac.app"
 
+  uninstall quit:   "com.seergiii.omnimac",
+            delete: "/etc/sudoers.d/omnimac-lid"
+
   zap trash: [
     "~/Library/Application Support/OmniMac",
     "~/Library/Preferences/com.seergiii.omnimac.plist",
