@@ -4,7 +4,7 @@ cask "omnimac" do
 
   url "https://github.com/BySergiMM/OmniMac/releases/download/v#{version}/OmniMac-#{version}.zip"
   name "OmniMac"
-  desc "Eleven Mac utilities in one menu bar app, with a Dynamic Island for any Mac"
+  desc "Eleven utilities in one menu bar app, with a Dynamic Island for any screen"
   homepage "https://bysergimm.github.io/OmniMac/"
 
   livecheck do
