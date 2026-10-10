@@ -1,6 +1,6 @@
 cask "omnimac" do
-  version "0.5.7"
-  sha256 "d664a2c853486f2de4861564220e720072076ad9684277e7fba2328d6c5e367a"
+  version "0.5.8"
+  sha256 "4d1a5fd4d05647e8a0e5e06aaba68faad36e4797b1692d3dab261fc827fb9f4b"
 
   url "https://github.com/BySergiMM/OmniMac/releases/download/v#{version}/OmniMac-#{version}.zip"
   name "OmniMac"
